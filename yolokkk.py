@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 
-# Carregar modelo YOLO
+# Carregar modelo YOLO (salve)
 model = YOLO("yolov8n.pt")
 
 # Iniciar webcam
