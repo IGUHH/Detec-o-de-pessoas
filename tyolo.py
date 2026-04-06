@@ -1,1 +1,2 @@
-from ultralytics import YOLO
+import ultralytics
+print(ultralytics.__version__)
