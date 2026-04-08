@@ -10,7 +10,8 @@ while cap.isOpened():
     if not success:
         break
 
-    results = model(frame, stream=True)
+   # 3. Executa a detecção no frame atual com uma confiança mínima de 0.5 e filtrando apenas a classe 'pessoa' (classe 0)
+    results = model(frame, stream=True, conf=0.5, classes=0)
 
     for r in results:
         annotated_frame = r.plot()
