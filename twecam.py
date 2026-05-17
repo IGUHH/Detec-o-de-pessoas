@@ -1,7 +1,7 @@
 import cv2
 
 # 0 = webcam padrão (pode mudar para 1, 2 se tiver mais câmeras)
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("http://192.168.0.36/live")
 
 while True:
     ret, frame = cap.read()  # captura frame da webcam

@@ -1,1 +1,1 @@
-Usando o yolo comk python
+Usando o yolo como python
